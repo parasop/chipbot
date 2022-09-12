@@ -1,0 +1,21 @@
+{
+  "prefix":"ch!",
+  "support":"https://discord.gg/HpAzqYRNkV",
+   "owner": [
+    "433227453637328897",
+    "445531846118211588",
+    "580381333914648579",
+    "857958962904694836",
+    "567704764813541376",
+    "889005501701029919"
+  ],
+  "color":"#E67E22",
+  "nodes":[{
+    "name":"NODE_1",
+    "host":"lavalink.rukchadisa.live",
+    "port":8080,
+    "pass":"youshallnotpass",
+    "secure":false
+  }]
+  
+}

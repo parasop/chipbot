@@ -1,0 +1,27 @@
+{
+  "name": "chipbot",
+  "version": "1.0.0",
+  "description": "A clone version of chip bot made in poru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasop/chipbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parasop/chipbot/issues"
+  },
+  "homepage": "https://github.com/parasop/chipbot#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.0.2",
+    "ms": "^2.1.3",
+    "poru": "^3.0.0",
+    "pretty-ms": "^5.0.0"
+  }
+}
