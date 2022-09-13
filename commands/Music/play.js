@@ -17,7 +17,7 @@ module.exports = {
 - ch!play insert-URL-here - Plays the song linked to an URL directly. This works for all supported platforms.`,
     run: async (client, message, args) => {
 
-        const query = query = args.join(' ') || getAttachmentURL(message)
+        const query = args.join(' ') || getAttachmentURL(message)
         if (!query) {
 
             let embed = new EmbedBuilder();
