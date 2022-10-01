@@ -1,5 +1,6 @@
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const { Poru } = require('poru');
+const Topgg =require('@top-gg/sdk')
 const client = new Client({
   failIfNotExists: true,
   allowedMentions: {
@@ -18,6 +19,7 @@ client.poru = new Poru(client, client.config.nodes, {
 defaultPlatform:"ytsearch"
 });
 client.commands = new Collection();
+client.topgg = new Topgg.Api(client.config.topgg)
 client.aliases = new Collection();
 
 ['commands', 'events', 'poruEvents'].forEach((handler) => {
@@ -32,4 +34,4 @@ require('node:http')
   )
   .listen(8080);
 
-client.login(process.env.TOKEN);
+  client.login(process.env.TOKEN);
